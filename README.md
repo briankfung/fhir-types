@@ -1,4 +1,4 @@
-# @ufbfung/fhir-types
+# @briankfung/fhir-types
 
 Minimal, hand-rolled **HL7 FHIR R4** TypeScript types.
 
@@ -14,7 +14,7 @@ readability or control.
 ## Installation
 
 ```bash
-npm install @ufbfung/fhir-types
+npm install @briankfung/fhir-types
 ```
 
 ---
@@ -28,7 +28,7 @@ import type {
   Condition,
   AllergyIntolerance,
   Practitioner,
-} from "@ufbfung/fhir-types";
+} from "@briankfung/fhir-types";
 
 const patient: Patient = {
   resourceType: "Patient",
@@ -96,7 +96,7 @@ This type enforces key *cardinality constraints at compile time*:
 Example:
 
 ```ts
-import type { USCorePatient } from "@ufbfung/fhir-types";
+import type { USCorePatient } from "@briankfung/fhir-types";
 
 const patient: USCorePatient = {
   resourceType: "Patient",
@@ -126,7 +126,7 @@ confirm conformance when ready.
 import type {
   DraftUSCorePatient,
   USCorePatient,
-} from "@ufbfung/fhir-types";
+} from "@briankfung/fhir-types";
 
 const draft: DraftUSCorePatient = {
   resourceType: "Patient",

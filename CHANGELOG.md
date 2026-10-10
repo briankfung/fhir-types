@@ -6,6 +6,11 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ---
 
+## 0.1.0
+
+- Renamed the package from `@ufbfung/fhir-types` to `@briankfung/fhir-types` to follow the author's GitHub handle (`briankfung`). No API changes.
+- `@ufbfung/fhir-types` is deprecated on npm and points here.
+
 ## [0.0.4] – 2025-12-21
 
 ### Added
