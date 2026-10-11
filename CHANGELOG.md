@@ -6,6 +6,10 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ---
 
+## 0.1.1
+
+- First release published from GitHub Actions through npm trusted publishing, with a provenance attestation. No code changes.
+
 ## 0.1.0
 
 - Renamed the package from `@ufbfung/fhir-types` to `@briankfung/fhir-types` to follow the author's GitHub handle (`briankfung`). No API changes.

@@ -1,6 +1,6 @@
 {
   "name": "@briankfung/fhir-types",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Minimal HL7 FHIR R4 TypeScript types (hand-rolled MVP).",
   "homepage": "https://github.com/briankfung/fhir-types#readme",
   "repository": {
