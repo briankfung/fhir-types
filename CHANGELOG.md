@@ -8,7 +8,7 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ## 0.1.1
 
-- First release published from GitHub Actions through npm trusted publishing, with a provenance attestation. No code changes.
+- Republished after the GitHub account rename. No code changes.
 
 ## 0.1.0
 

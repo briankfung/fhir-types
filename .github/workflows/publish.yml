@@ -1,9 +1,11 @@
 name: Publish Package
 
+# Manual only. npm trusted publishing rejects this repo's OIDC tokens since the GitHub account
+# rename (ufbfung -> briankfung, 2026-10-10): renamed repos get GitHub's immutable subject format
+# (repo:owner@id/repo@id) and npm answers "OIDC permission denied". Publish from a laptop with
+# `npm publish --access public` until npm accepts immutable subjects, then restore the tag trigger.
 on:
-  push:
-    tags:
-      - "v*"
+  workflow_dispatch:
 
 permissions:
   contents: read
